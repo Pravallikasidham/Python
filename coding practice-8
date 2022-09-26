@@ -1,0 +1,115 @@
+#print integers 
+N = int(input())
+for i in range(N):
+    print(i+1)
+Input:
+3
+Output:
+ 1
+ 2
+ 3
+_____________________________________________________
+#print integers
+M = int(input())
+N= int(input())
+for output in range(M,N+1):
+    print(output)
+Input:
+2
+6
+Output:
+ 2
+ 3
+ 4
+ 5
+ 6
+_____________________________________________________
+#solid square
+N = int(input())
+for counter in range (N):
+    print("* " * N)
+Input:
+4
+Output:
+* * * * 
+* * * * 
+* * * * 
+* * * * 
+______________________________________________________
+#solid Rectangle
+M_rows = int(input())
+N_col = int(input())
+for counter in range(M_rows):
+    print("* "*N_col)
+Input:
+2
+3
+Output:
+* * * 
+* * * 
+________________________________________________________
+#Solid Right Angled Triangle
+N = int(input())
+for counter in range(1,N+1):
+    print("* "*counter)
+Input:
+4
+Output:
+* 
+* * 
+* * * 
+* * * * 
+________________________________________________________
+#sum of natural numbers
+N = int(input())
+sum = 0
+for i in range(1,N+1):
+    sum =sum+i
+print(sum)
+Input:
+6
+Output:
+21
+__________________________________________________________
+#Read N INPUTS
+N = int(input())
+for counter in range(N):
+    n=int(input())
+    print(n)
+Input:
+3
+8
+11
+25
+Output:
+8
+11
+25
+___________________________________________________________
+#sum of given numbers
+N = int(input())
+sum = 0
+for counter in range(N):
+    n = int(input())
+    sum =sum + n 
+print(sum)
+Input:3
+8
+11
+25
+Output:
+44
+________________________________________________________________
+#styled word
+a = input()
+len_of_a = len(a)
+b = a[0]
+for i in range(1, len_of_a):
+    b = b + "-" + a[i]
+print(b)
+input:
+Python
+Output:
+P-y-t-h-o-n
+_________________________________________________________________
+
