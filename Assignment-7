@@ -1,0 +1,70 @@
+#print integers 
+N = int(input())
+counter =1 
+while N >= 1:
+    N = N -1 
+    print(N+1)
+    counter = counter +1
+Input:
+5
+Output:
+5
+4
+3
+2
+1
+_____________________________________________________
+# Solid Rectangle
+M_rows = int(input())
+N_columns = int(input())
+counter = 0
+while counter < M_rows:
+    print("+ " * N_columns)
+    counter = counter + 1
+Input:
+3
+5
+Output:
++ + + + + 
++ + + + + 
++ + + + + 
+____________________________________________________
+#Product of Given Numbers
+N = int(input())
+counter = 1 
+product = 1 
+while counter <= N:
+    n = int(input())
+    product = product * n
+    counter = counter + 1
+print(product)   
+Input:
+3
+2
+3
+7
+Output:
+42
+______________________________________________________
+# solid right angled triangle
+N = int(input())
+counter = 1 
+while counter<=N:
+    print("* "*counter)
+    counter = counter+1 
+counter = 1 
+while counter<=N:
+    print("* "*counter)
+    counter = counter+1 
+Input:
+4
+Output:
+* 
+* * 
+* * * 
+* * * * 
+* 
+* * 
+* * * 
+* * * *     
+_______________________________________________________
