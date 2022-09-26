@@ -1,0 +1,122 @@
+#Print intergers 
+number = int(input())
+counter = 1
+while counter < number + 1:
+    print(counter)
+    counter = counter + 1
+Input: 3
+Your Output: 
+1
+2
+3
+________________________________________________________
+#print integers from M to N
+M = int(input())
+N = int(input())
+counter = M
+while counter <= N:
+    print(counter)
+    counter = counter +1
+Input:
+2
+6 
+Output: 
+2
+3
+4
+5
+6
+________________________________________________________
+#Solid square
+n =int(input())
+counter = 1 
+while counter <= n :
+    print("* " * n)
+    counter = counter +1
+Input:
+4
+Output: 
+* * * *
+* * * *
+* * * *
+* * * *
+________________________________________________________
+#Solid Rectangle
+Rows = int(input())
+Columns = int(input())
+counter = 1 
+while counter <= Rows:
+    print("* " * Columns)
+    counter = counter + 1
+Input:
+2
+3
+Output:
+* * * 
+* * * 
+________________________________________________________
+# Right-Angled Triangle
+N =int(input())
+counter = 1
+while counter <= N :
+    print("* "* counter)
+    counter = counter+1
+Input:
+4
+Output:
+* 
+* * 
+* * * 
+* * * * 
+________________________________________________________
+#Sum of Natural Numbers 
+N = int(input())
+counter = 1
+sum = 0
+while counter <= N:
+    sum = sum + counter 
+    counter = counter + 1 
+print(sum)
+Input:
+6
+Output:
+21
+________________________________________________________
+#Read N inputs
+N = int(input())
+counter = 0
+while counter < N :
+    n = int(input())
+    print(n)
+    counter = counter + 1
+Input:
+3
+8
+11
+25
+Output:
+8
+11
+25
+_________________________________________________________
+#Sum of given Numbers
+N = int(input())
+counter = 1 
+sum =0
+while counter <= N :
+    n = int(input())
+    sum = sum + n 
+    counter = counter + 1
+print(sum)
+input:
+3
+8
+11
+25
+Output:
+44
+_________________________________________________________
+
+   
+	
+    
