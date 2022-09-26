@@ -1,0 +1,61 @@
+#Print Integers
+N = int(input())
+for counter in range(N) :
+    counter =N - counter
+    print(counter)
+Input:
+5 
+Output:
+5 
+4 
+3
+2
+1
+_______________________________________________
+#PRODUCT OF GIVEN NUMBERS
+N =int(input())
+product = 1 
+for i in range (N):
+    n = int(input())
+    product = product * n 
+    i = i+1 
+print(product) 
+Input: 
+3
+2
+3
+7
+Output:
+42
+_______________________________________________
+#solid rectangle 
+M_rows = int(input())
+N_col = int(input())
+for i in range(M_rows):
+    print("+ "*N_col)
+Input:
+3
+5
+Output:
++ + + + + 
++ + + + + 
++ + + + + 
+________________________________________________
+#solid right angled triangle
+N = int(input())
+for i in range(1,N+1):
+    print("* "* i)
+for i in range(1,N+1):
+    print("* "* i)
+Input:
+4
+Output:
+* 
+* * 
+* * * 
+* * * * 
+* 
+* * 
+* * * 
+* * * * 
+__________________________________________________
