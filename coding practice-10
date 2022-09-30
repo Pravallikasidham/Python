@@ -35,3 +35,125 @@ Hurray! We have won the match.
 Output:
 .hctam eht now evah eW !yarruH
 _______________________________________________________
+# Greatest Aming N Numbers
+no_of_inputs = int(input())
+given_inputs = int(input())
+greatest_num = given_inputs 
+for i in range(no_of_inputs-1):
+    new_num = int(input())
+    if new_num > greatest_num :
+        greatest_num = new_num
+print(greatest_num)
+Input:
+5
+8
+11
+96
+49
+25
+Output:
+96
+________________________________________________________
+#Smallest Among N Numbers
+num_of_inputs = int(input())
+given_input = int(input())
+smallest_num = given_input 
+for i in range(num_of_inputs-1):
+    new_num = int(input())
+    if new_num < smallest_num:
+        smallest_num = new_num 
+print(smallest_num)
+Input:
+5
+8
+11
+96
+49
+25
+Output:
+8
+_________________________________________________________
+# Sum of Series
+N  = int(input())
+sum = 0 
+string = "2"
+for i in range(1,N+1):
+    number = string * i 
+    sum =sum + int(number)
+print(sum)
+Input:
+3
+Output:
+246
+__________________________________________________________
+# Factors of a Number
+N = int(input())
+for i in range(1,N+1):
+    if (N % i) == 0 :
+        print(i)
+Input:
+6
+Output:
+1
+2
+3
+6
+__________________________________________________________
+# Sum of all Factors 
+ N = int(input())
+sum = 0 
+for i in range(1,N+1):
+    if (N % i) == 0:
+        sum = sum + i 
+print(sum)
+Input:
+12=(1+2+3+4+6+12)
+Output:
+28
+___________________________________________________________
+# Perfect Number 
+N =int(input())
+sum = 0 
+for count in range(1,N):
+    if (N % count)==0:
+        sum =sum + count 
+if sum == N :
+    print("Perfect Number")
+else:
+    print("Not a Perfect Number")
+Input:
+6
+Output:
+Perfect Number
+__________________________________________________________
+#Armstrong Number 
+number = input()
+sum = 0 
+length = len(number)
+for i in number:
+        sum = sum + (int(i)**length )
+if sum == int(number):
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
+Input:
+153
+Output:
+Armstrong Number
+__________________________________________________________
+# Hollow Square
+N = int(input())
+for i in range(N):
+    if i==0 or i==N-1 :
+        print("* "* N)
+    else:
+        spaces = ("  "*(N-2)) 
+        print("* "+spaces+"* ")
+Input:
+4
+Output:
+* * * * 
+*     * 
+*     * 
+* * * * 
+___________________________________________________________
