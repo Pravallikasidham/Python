@@ -35,7 +35,7 @@ Hurray! We have won the match.
 Output:
 .hctam eht now evah eW !yarruH
 _______________________________________________________
-# Greatest Aming N Numbers
+# Greatest Among N Numbers
 no_of_inputs = int(input())
 given_inputs = int(input())
 greatest_num = given_inputs 
